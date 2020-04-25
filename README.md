@@ -18,7 +18,7 @@ The degree of a vertex v in a graph is the number of edges connecting it, with l
 
 ### The degree sum formula (Handshaking lemma):
 
-![](assets/lemma.jpg)
+![Degree sum formula](assets/lemma.JPG)
 
 ## Degree Sequence
 
@@ -28,7 +28,7 @@ Isomorphic graphs have the same degree sequence. However, two graphs with the sa
 
 There is the question whether a given degree sequence can be realized by a simple graph. The Erdös-Gallai theorem states that a non-increasing sequence of n numbers di (for i = 1, ..., n) is the degree sequence of a simple graph if and only if the sum of the sequence is even and the following condition is fulfilled: 
 
-![](assets/deg_seq.jpg)
+![Degree Sequence Formula](assets/deg_seq.JPG)
 
 ## Graph Density
 
@@ -40,7 +40,7 @@ max. number of edges = ½ * |V| * ( |V| - 1 ).
 On the other hand the minimal density is 0, if the graph has no edges, i.e. it is an isolated graph.
 For undirected simple graphs, the graph density is defined as: 
 
-![](assets/gra_den.jpg)
+![Graph Density Formula](assets/gra_den.JPG)
 
 A dense graph is a graph in which the number of edges is close to the maximal number of edges. A graph with only a few edges, is called a sparse graph. The definition for those two terms is not very sharp, i.e. there is no least upper bound (supremum) for a sparse density and no greatest lower bound (infimum) for defining a dense graph.
 
@@ -74,4 +74,4 @@ The diameter d of a graph is defined as the maximum eccentricity of any vertex i
 
 ## Output when out.py is executed:
 
-![](assets/out.jpg)
+![Output](assets/out.JPG)
